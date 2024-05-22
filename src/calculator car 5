@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+void affichage(int ValUser){ 
+ printf("Valeur User : %d\n ", ValUser);
+}
+void carre(int ValUser){ 
+ printf("Le carre : %d\n ", ValUser*ValUser);
+}
+int main(int argc, char *argv[])
+{   printf("1er argument: %s\n", argv[1]);
+    int n = atoi(argv[1]);
+    affichage(n);
+    carre(n);
+    return 0;
+}
