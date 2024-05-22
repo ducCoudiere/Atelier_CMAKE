@@ -29,4 +29,3 @@ jobs:
           make
           ./src/calculator add 10 5
 
-          
